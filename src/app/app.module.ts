@@ -9,6 +9,10 @@ import { SegundocuatrimestreComponent } from './pages/segundocuatrimestre/segund
 import { TercercuatrimestreComponent } from './pages/tercercuatrimestre/tercercuatrimestre.component';
 import { CuartocuatrimestreComponent } from './pages/cuartocuatrimestre/cuartocuatrimestre.component';
 
+//SERVICIOS
+import { ScrollanimateService } from './services/scrollanimate.service';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +26,9 @@ import { CuartocuatrimestreComponent } from './pages/cuartocuatrimestre/cuartocu
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [
+    ScrollanimateService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
