@@ -1,0 +1,7 @@
+.home-img {
+    width: 100%;
+    margin: auto;
+    display: block;
+    border-radius: 10%;
+    margin-top: -0.5rem !important;
+}
